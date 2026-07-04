@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  http: ^1.2.0
   salomon_bottom_bar: ^3.3.2
   fluttertoast: ^9.1.0
   simple_alert_dialog: ^1.0.1

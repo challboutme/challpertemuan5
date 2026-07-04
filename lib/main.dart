@@ -11,6 +11,7 @@ import 'package:pertemuan_listview/pertemuan/pertemuan6.dart';
 import 'package:pertemuan_listview/pertemuan/pertemuan7.dart';
 import 'package:pertemuan_listview/pertemuan/pertemuan8.dart';
 import 'package:pertemuan_listview/pertemuan/pertemuan9.dart';
+import 'package:pertemuan_listview/pertemuan/pertemuan10.dart';
 import 'package:pertemuan_listview/firebase_options.dart';
 import 'package:pertemuan_listview/auth/auth_page.dart';
 
@@ -83,6 +84,11 @@ class _DashboardPageState extends State<DashboardPage> {
       "icon": Icons.radio_button_checked,
       "page": Pert9(),
     },
+    {
+      "title": "Aplikasi CRUD",
+      "icon": Icons.radio_button_checked,
+      "page": Pertemuan10(),
+    },
   ];
 
   @override
@@ -117,7 +123,7 @@ class _DashboardPageState extends State<DashboardPage> {
               ),
               SizedBox(height: 10),
               Text(
-                "Aplikasi Ujian Tengah Semester",
+                "Aplikasi Ujian Akhir Semester",
                 style: TextStyle(color: Colors.white70, fontSize: 18),
               ),
             ],
@@ -216,7 +222,7 @@ class _DashboardPageState extends State<DashboardPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Aplikasi Ujian Tengah Semester",
+          "Aplikasi Ujian Akhir Semester",
           style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         ),
         centerTitle: true,
